@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbtn{
+    outline: 2px solid rgb(66, 66, 255);
+}
+.bgGray{
+    background-color: rgb(223, 223, 223);
+}
+.positionSet{
+    top: 10px;
+    left: 30px;
+}
+.cardWidth{
+    width: 16%!important;
+}
+.shutterposition{
+    top: 30px;
+    left: 38%;
+}
+.fitnessWidths{
+    width: 19%!important;
+    height: 133px!important;
+}
+@media only screen and (max-width: 768px) {
+    .navdeminish{
+        display: none!important;
+    }
+    .navtwodeminishs{
+        display: none!important;
+    }
+    .cardWidth{
+        width: 32%!important;
+    }
+    .paddding{
+        padding: 0px 0px 0px 23px!important;
+    }
+    .imgheight{
+        height: 200px!important;
+    }
+    .shutterposition{
+        top: 20px;
+        left: 5%;
+    }
+    .fitnessdim{
+        display: none!important;
+
+    }
+}
+@media only screen and (max-width:576px) {
+    .navdeminish{
+        display: none!important;
+
+    }
+    .fitnessdim{
+        display: block!important;
+
+    }
+    .navtwodeminishs{
+        display: block!important;
+    }
+    .gaping{
+        gap: 10px!important;
+    }
+    .cardWidth{
+        width: 49%!important;
+    }
+    .fonting{
+        font-size: larger;
+    }
+    .fontings{
+        font-size: 10px!important;
+
+    }
+    .imgheight{
+        height: 200px!important;
+    }
+    .shutterposition{
+        top: 20px;
+        left: 5%;
+    }
+    .heightyimag{
+        height: 111px!important;
+        width: 150px!important;
+    }
+    .fitnessWidths{
+        width: 32%!important;   
+    }
+    .paddding{
+        padding: 0px 0px 0px 23px!important;
+    }
+    .fitnessdeminish{
+        display: none!important;
+
+    }
+}
